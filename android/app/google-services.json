@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "465626200526",
+    "project_id": "istart-b8414",
+    "storage_bucket": "istart-b8414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465626200526:android:c01999ee3ba2f142b4139f",
+        "android_client_info": {
+          "package_name": "com.houssy.istart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465626200526-8moaoei8hgfqkd0124ao2svb9to9oujs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.houssy.istart",
+            "certificate_hash": "7bc21092812e1ea9aab2afccf66570f7342608f1"
+          }
+        },
+        {
+          "client_id": "465626200526-4c91i8c6pg57636oi5g8i6mr5926c74h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRvSQUgQr53qQ-8doIhprthKjzwZiTDVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465626200526-4c91i8c6pg57636oi5g8i6mr5926c74h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
