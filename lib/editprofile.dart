@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:istart/myprofile.dart';
 import 'package:istart/net/database.dart';
 import 'package:istart/net/fbstorage.dart';
 import 'package:video_player/video_player.dart';

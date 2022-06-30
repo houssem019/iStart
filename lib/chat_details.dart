@@ -261,11 +261,11 @@ class _ChatdetailsState extends State<Chatdetails> {
                                 height: 50,
                                 child: MaterialButton(
                                   onPressed: () {
-                                    _scrolllcontroller.animateTo(
-                                        _scrolllcontroller
-                                            .position.maxScrollExtent,
-                                        duration: Duration(microseconds: 100),
-                                        curve: Curves.easeOut);
+                                    // _scrolllcontroller.animateTo(
+                                    //     _scrolllcontroller
+                                    //         .position.maxScrollExtent,
+                                    //     duration: Duration(microseconds: 100),
+                                    //     curve: Curves.easeOut);
                                     DatabaseService().SendMessage(
                                         receiverId: "${widget.uid}",
                                         datetime: DateTime.now().toString(),

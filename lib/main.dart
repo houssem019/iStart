@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:istart/chats.dart';
 import 'package:istart/drawer.dart';
+import 'package:istart/firebase_options.dart';
 import 'package:istart/gettingstarted.dart';
 import 'package:istart/mymoney.dart';
 import 'package:istart/myprofile.dart';
@@ -18,7 +19,9 @@ import 'net/database.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.android,
+  );
   var token = await FirebaseMessaging.instance.getToken();
   print(token);
   FirebaseMessaging.onMessage.listen((event) {
